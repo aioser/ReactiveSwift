@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.watchos.deployment_target = "4.0"
   s.tvos.deployment_target = "11.0"
 
-  s.source       = { :git => "https://github.com/ReactiveCocoa/ReactiveSwift.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/aioser/ReactiveSwift.git", :tag => "#{s.version}" }
   # Directory glob for all Swift files
   s.source_files  = ["Sources/*.{swift}", "Sources/**/*.{swift}"]
 
